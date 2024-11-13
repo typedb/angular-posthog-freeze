@@ -1,0 +1,15 @@
+<table mat-table [dataSource]="[{ id: 0 }]">
+  <ng-container matColumnDef="actions">
+    <th mat-header-cell *matHeaderCellDef></th>
+    <td mat-cell *matCellDef="let cluster">
+      <button mat-fab [matMenuTriggerFor]="rowPopupMenu" [matMenuTriggerData]="{ items: rowPopupMenuItems() }">...</button>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="['actions']"></tr>
+  <tr mat-row *matRowDef="let cluster; columns: ['actions']"></tr>
+</table>
+
+<mat-menu #rowPopupMenu="matMenu"></mat-menu>
+
+<button>Hello World</button>

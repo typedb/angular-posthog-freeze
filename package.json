@@ -1,0 +1,46 @@
+{
+  "name" : "angular-posthog-freeze",
+  "version" : "0.8.81",
+  "engines" : {
+    "node" : ">=18 <20"
+  },
+  "packageManager" : "pnpm@7.33.7",
+  "scripts" : {
+    "ng" : "ng",
+    "start" : "ng serve",
+    "build" : "ng build"
+  },
+  "private" : true,
+  "dependencies" : {
+    "@angular/animations" : "17.0.9",
+    "@angular/cdk" : "17.0.4",
+    "@angular/common" : "17.0.9",
+    "@angular/compiler" : "17.0.9",
+    "@angular/core" : "17.0.9",
+    "@angular/forms" : "17.0.9",
+    "@angular/material" : "17.0.4",
+    "@angular/platform-browser" : "17.0.9",
+    "@angular/platform-browser-dynamic" : "17.0.9",
+    "@angular/router" : "17.0.9",
+    "detect-libc" : "2.0.2",
+    "dprint-node" : "1.0.8",
+    "long" : "5.2.3",
+    "posthog-js" : "1.164.2",
+    "rxjs" : "7.8.1",
+    "ts-poet" : "6.6.0",
+    "tslib" : "^2.6.2",
+    "zone.js" : "0.14.2"
+  },
+  "devDependencies" : {
+    "@angular-devkit/architect" : "0.1700.10",
+    "@angular-devkit/architect-cli" : "0.1700.10",
+    "@angular-devkit/build-angular" : "17.0.10",
+    "@angular/cli" : "17.0.10",
+    "@angular/compiler-cli" : "17.0.9",
+    "@types/node" : "18.19.4",
+    "ng-packagr" : "17.0.3",
+    "tslib" : "2.6.2",
+    "typescript" : "5.2.2"
+  },
+  "browserslist" : [ "last 1 Chrome version", "last 1 Firefox version", "last 2 Edge major versions", "last 2 Safari major versions", "last 2 iOS major versions", "Firefox ESR" ]
+}
