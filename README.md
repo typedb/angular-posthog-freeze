@@ -23,4 +23,6 @@ If you go to `main.ts` and comment out the call to `posthog.init`, the issue goe
 
 ## Additional information
 
+Adblockers may cause the issue to not show up.
+
 The issue also goes away if you take out the Angular Material popup menu from the source code. We hypothesise that somehow the two are not playing together well.
