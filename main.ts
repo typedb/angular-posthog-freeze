@@ -14,6 +14,8 @@ import posthog from "posthog-js";
 
 function appInitializer() {
     return () => Promise.resolve().then(() => {
+        // The page freezes indefinitely by default.
+        // Commenting out this call to posthog.init fixes the issue.
         posthog.init(
             "phc_kee7J4vlLnef61l6krVU8Fg5B6tYIgSEVOyW7yxwLSk",
             {
