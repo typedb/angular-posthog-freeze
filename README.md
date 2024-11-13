@@ -9,6 +9,8 @@ This repository exists so that we can diagnose an issue where our website freeze
 1. Visit https://angular-posthog-freeze.netlify.app/ (without any adblocker extensions in your browser)
 2. The website should open in your browser, and immediately freeze, becoming unresponsive. You can verify this by right-clicking anywhere on the page, or clicking the "Hello World" button.
 
+You can also observe the issue go away if you enable uBlock Origin in your browser and reload the site.
+
 ## Build from source (for debugging)
 
 ### Environment
