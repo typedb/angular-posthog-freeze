@@ -8,7 +8,7 @@ This repository exists so that we can diagnose an issue where our website freeze
 
 - Node.js v18.16.0 (e.g. through NVM)
 - PNPM v7.33.7
-- Chrome 130.0.6723.117
+- Chrome 130.0.6723.117 (without any adblocker extensions)
 - MacOS Sonoma v14.5
 
 ## Steps to reproduce
