@@ -4,14 +4,21 @@ This repository exists so that we can diagnose an issue where our website freeze
 
 (NB: There are other ways to fix the freeze, including code refactors.)
 
-## Environment
+## Quick reproduction
+
+1. Visit https://angular-posthog-freeze.netlify.app/ (without any adblocker extensions in your browser)
+2. The website should open in your browser, and immediately freeze, becoming unresponsive. You can verify this by right-clicking anywhere on the page, or clicking the "Hello World" button.
+
+## Build from source (for debugging)
+
+### Environment
 
 - Node.js v18.16.0 (e.g. through NVM)
 - PNPM v7.33.7
 - Chrome 130.0.6723.117 (without any adblocker extensions)
 - MacOS Sonoma v14.5
 
-## Steps to reproduce
+### Steps to reproduce
 
 1. Clone the repo
 1. `pnpm i`
